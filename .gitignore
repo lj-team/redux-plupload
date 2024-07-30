@@ -1,6 +1,6 @@
-lib/
 node_modules/
 manifest.json
 npm-debug.log
 npm-debug.log.*
 .idea
+package-lock.json

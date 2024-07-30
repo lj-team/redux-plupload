@@ -13,7 +13,8 @@
     "test": "mocha && echo '***ES5***' && cross-env BABEL_ENV=es5 mocha",
     "lint": "eslint .",
     "clean": "rimraf lib",
-    "build": "cross-env BABEL_ENV=es5 babel es6 --out-dir lib",
+    "build-manual-comment": "echo Build-script below is renamed to 'build-manual' by intent, so npm won't try to automatically build the repo on npm install.",
+    "build-manual": "cross-env BABEL_ENV=es5 babel es6 --out-dir lib",
     "precommit": "npm run lint && npm run test"
   },
   "keywords": [
